@@ -83,6 +83,7 @@ export class HomeComponent implements OnInit {
       }
     );
   }
+  
 
   removeTodo(id:any) {
     console.log(id)
