@@ -87,7 +87,7 @@ export class HomeComponent implements OnInit {
 
   removeTodo(id:any) {
     console.log(id)
-    if(window.confirm("Bu maddeyi silmek istediğinize emin misinizz ?")){
+    if(window.confirm("Bu maddeyi silmek istediğinize emin misinizzz ??")){
       this.todoService.deleteTodo(id).subscribe(
         (result:any) => {
           console.log(result);
